@@ -1,6 +1,7 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
     "remoteUser": "node",
+    "forwardPorts": [6080],
     "customizations": {
         "vscode": {
             "extensions": [
